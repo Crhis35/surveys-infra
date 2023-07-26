@@ -1,0 +1,13 @@
+mutation createSurvey($surveyInput: SurveyInput!) {
+  createSurvey(surveyInput: $surveyInput) {
+    ...SurveyFields
+  }
+}
+
+mutation deleteSurvey($id: ID!) {
+  deleteSurvey(id: $id) {
+    type
+    id
+    result
+  }
+}

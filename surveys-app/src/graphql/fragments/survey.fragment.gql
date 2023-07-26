@@ -1,0 +1,10 @@
+fragment SurveyFields on Survey {
+  votes
+  options {
+    votes
+    label
+    option
+  }
+  id
+  question
+}

@@ -1,0 +1,10 @@
+query findAllSurveys($page: Int, $size: Int) {
+  findAll(page: $page, size: $size) {
+    size
+    page
+    count
+    records {
+      ...SurveyFields
+    }
+  }
+}
