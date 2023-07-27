@@ -93,7 +93,7 @@ export default function CreateSurvey() {
   const finalRef = React.useRef(null);
   return (
     <>
-      <Button onClick={onOpen}>Open Modal</Button>
+      <Button onClick={onOpen}>Create Survey</Button>
 
       <Modal
         initialFocusRef={initialRef}
