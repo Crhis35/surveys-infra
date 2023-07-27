@@ -98,7 +98,7 @@ export default function SurveyCard(props: PropsWithChildren<Props>) {
         <AlertDialogOverlay>
           <AlertDialogContent>
             <AlertDialogHeader fontSize="lg" fontWeight="bold">
-              Delete Customer
+              Delete Survey
             </AlertDialogHeader>
 
             <AlertDialogBody>
