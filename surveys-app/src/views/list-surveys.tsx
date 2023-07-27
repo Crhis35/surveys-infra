@@ -11,7 +11,7 @@ export default function ListSurveys() {
   }
   return (
     <Center w="full" h="vh">
-      <SimpleGrid columns={2} spacing={10} w="full" p="20">
+      <SimpleGrid columns={[1, null, 2]} spacing={10} w="full" p="20">
         {surveys.length > 0 &&
           surveys.map((survey) => (
             <SurveyCard item={survey} key={survey?.id} />
